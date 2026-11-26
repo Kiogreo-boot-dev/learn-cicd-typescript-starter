@@ -16,5 +16,5 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 22
-      - name: Force Failure
-        run: (exit 1)
+      - name: Get Node Version
+        run: node --version
